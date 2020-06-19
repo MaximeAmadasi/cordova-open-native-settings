@@ -29,7 +29,7 @@ public class NativeSettings extends CordovaPlugin {
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
 		Context context=this.cordova.getActivity().getApplicationContext();
         PluginResult.Status status = PluginResult.Status.OK;
-        Uri packageUri = Uri.parse("package:" + this.cordova.getActivity().getPackageName());
+        Uri packageUri = Uri.parse("package:" + args.getString(2));
         String result = "";
 
         //Information on settings can be found here:
