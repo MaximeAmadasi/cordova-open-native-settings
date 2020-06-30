@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "description": "Native settings opener for Cordova",
   "cordova": {
-    "id": "cordova-open-native-settings",
+    "id": "bf-cordova-open-native-settings",
     "platforms": [
       "android",
       "ios"
